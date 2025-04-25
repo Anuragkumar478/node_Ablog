@@ -16,6 +16,6 @@ db.on('connectd',()=>{
     console.log('connectd to mongodb')
 })
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-
+// that is way to export the file 
 
 module.exports=mongoose.model('user',blogScema);
